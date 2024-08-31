@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora | Bloom With Elegance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/flower.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Playwrite+NL:wght@100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Responsive Header & nav -->
+    <header>
+        <h1>Flora</h1>
+        <nav id="navMenu" class="nav-closed">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Responsive Header & nav -->
+    <!-- Start Landing Section -->
+    <div class="landing" id="home">
+        <div class="landing__info">
+            <p class="landing__title">Flora</p>
+            <p class="landing__desc">"Where Every Bloom Tells a Story. Let Nature's Elegance Adorn Your Life."</p>
+            <a href="#shop">Shop Now</a>
+        </div>
+    </div>
+    <!-- End Landing Section -->
+    <!-- Scroll to Top Button -->
+    <button id="scrollTop" onclick="scrollToTop()"><i class="fa-solid fa-chevron-up fa-2x"></i></button>
+    <!-- Start Gallery Section -->
+    <div class="container" id="gallery">
+        <h2 class="special__heading">Gallery</h2>
+        <p>A Symphony of Colors and Fragrances Awaiting You.</p>
+        <div class="grid__container">
+            <img src="images/img1.jpg" alt="Image 1">
+            <img src="images/img2.jpg" alt="Image 2">
+            <img src="images/img3.jpg" alt="Image 3">
+            <img src="images/img4.jpg" alt="Image 4">
+            <img src="images/img5.jpg" alt="Image 5">
+            <img src="images/img6.jpg" alt="Image 6">
+            <img src="images/img7.jpg" alt="Image 7">
+            <img src="images/img8.jpg" alt="Image 8">
+        </div>
+
+    </div>
+    <!-- End Gallery Section -->
+    <!-- Embed PDF Section & animation-->
+    <div class="animation">
+        <div class="flower__list">
+            <h2 class="f__types__heading">Types of flowers</h2>
+            <ul style="list-style-image: url(images/flower.png)">
+                <li>Tulips</li>
+                <li>Sunflower</li>
+                <li>Orchid</li>
+                <li>Violet</li>
+                <li>Lotus</li>
+            </ul>
+        </div>
+        <div class="gif__section">
+            <div class="animated__gif">
+                <span>
+                    <img src="images/flower.png" alt="Flower Image">
+                </span>
+            </div>
+        </div>
+        <div class="pdf__section">
+            <h2 class="f__types__heading">Wanna Know About Flowers? Check This Out!</h2>
+            <iframe src="Flowers.pdf"></iframe>
+        </div>
+    </div>
+    <!-- Align Images Side By Side -->
+    <div class="side__row">
+        <div class="column">
+            <img src="images/img1.jpg" alt="image 1" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/img2.jpg" alt="image 2" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/img3.jpg" alt="image 3" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/img4.jpg" alt="image 4" style="width:100%">
+        </div>
+    </div>
+    <!-- Meet the Team Section -->
+    <section id="team" class="team__section">
+        <h2 class="special__heading">Bloomers</h2>
+        <p>A Passionate Team Committed to Making Your Moments Blossom.</p>
+        <div class="team__member">
+            <img src="images/team1.png" alt="Team Member 1">
+            <h3>Ahmad Nabil</h3>
+            <p class="name">Creative Director</p>
+            <p><em>"Guiding the Art of Floral Design."</em></p>
+        </div>
+        <div class="team__member">
+            <img src="images/team2.jpeg" alt="Team Member 2">
+            <h3>Ahmad Mousa</h3>
+            <p class="name">Lead Florist</p>
+            <p><em>"The Heart Behind Every Bouquet."</em></p>
+        </div>
+        <div class="team__member">
+            <img src="images/team3.jpg" alt="Team Member 3">
+            <h3>Hamza Nasser</h3>
+            <p class="name">E-commerce Manager</p>
+            <p><em>"Making Floral Shopping Effortless."</em>
+            </p>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#about">about us</a></li>
+                        <li><a href="#services">our services</a></li>
+                        <li><a href="#privacy">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#freshflowers">Fresh Flower Arrangements</a></li>
+                        <li><a href="#plants">Plants and Greenery</a></li>
+                        <li><a href="#gifts">Personalized Gifts</a></li>
+                        <li><a href="#events">Event Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>follow us</h4>
+                    <div class="social__links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+
+                <p>2024&copy;Copy Rights. Made with &hearts; by Aya Mousa</p>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript for Scroll to Top Button -->
+    <script>
+        window.onscroll = function () {
+            const scrollTopBtn = document.getElementById("scrollTop");
+            if (document.body.scrollTop > 160 || document.documentElement.scrollTop > 160) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
